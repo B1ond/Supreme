@@ -83,3 +83,22 @@
     .social_network_button{
         padding-left: 30px;
     }
+
+    /* Media start */
+
+    @media screen and (max-width: 390px){
+        header{
+            padding-top: 116px;
+        }
+        .wrapper{
+            margin-left: 180px;
+        }
+        .menu{
+            width: 307px;
+            height: 315px;
+        }
+        footer{
+            padding-top: 30px;
+        }
+    }
+    /* Media end */
