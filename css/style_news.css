@@ -53,6 +53,7 @@ time {
     max-width: 800px;
     display: flex;
     margin: 0 auto;
+    padding: 20px;
 }
 
 .slider {
@@ -113,3 +114,43 @@ footer {
     list-style: none;
     padding-left: 30px;
 }
+
+/* Media start */
+@media screen and (max-width: 910px) {
+
+    header {
+        padding-top: 80px;
+    }
+
+    body {
+        font-size: 15px;
+    }
+
+    .text h2 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 391px) {
+
+    .image_text {
+        flex-direction: column;
+    }
+
+    .pages {
+        padding-top: 20px;
+        margin-left: 120px;
+    }
+
+    ul {
+        flex-direction: column;
+        align-items: center
+    }
+
+    footer {
+        background-color: #F5F5F5;
+        padding-top: 20px;
+        padding-bottom: 50px;
+    }
+}
+/* Media end */
